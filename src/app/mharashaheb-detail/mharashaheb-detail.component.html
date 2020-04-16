@@ -1,0 +1,10 @@
+<div *ngIf="mharashaheb">
+  <h2>{{mharashaheb.name | uppercase}} Details</h2>
+  <div class="details">
+    <label>
+      NAME: {{mharashaheb.name}}<br>
+      PLACE: {{mharashaheb.place}}
+    </label>
+  </div>
+  <button (click)="goBack()">go back</button>
+</div>

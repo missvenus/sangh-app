@@ -1,0 +1,9 @@
+<h2>प्रवर्तक देव द्वारा सभी आगारो सहित 2020 के वर्षावास की घोषणा</h2>
+<hr>
+<ul class="mharashahebs">
+  <li *ngFor="let mharashaheb of mharashahebs">
+    <a routerLink="/detail/{{mharashaheb.id}}">
+      <span class="badge">{{mharashaheb.id}}</span> {{mharashaheb.name}}
+    </a>
+  </li>
+</ul>
