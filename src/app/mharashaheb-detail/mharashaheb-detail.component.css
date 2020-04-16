@@ -1,4 +1,8 @@
 /* MharashahebDetailComponent's private CSS styles */
+h2 {
+  text-align: center;
+}
+
 label {
   display: inline-block;
   width: 30em;
