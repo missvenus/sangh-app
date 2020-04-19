@@ -2,37 +2,48 @@
 h1 {
   font-size: 1.2em;
   margin-bottom: 0;
+  text-align: center;
 }
 h2 {
   font-size: 2em;
   margin-top: 0;
   padding-top: 0;
+  text-align: center;
 }
 
 h3 {
   text-align: center;
   margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 1.5%;
 }
 
 .topbar {
-  background-color: #ffb84d;
-  max-width: 1070px;
-  height: 30px;
-  margin-top: 30px;
-  margin-left: 20px;
+  /*background-color: #d65828;*/
+  max-width: 100%;
+  height: 20%;
+  margin-top: 1.5%;
   text-align: center;
 }
 
+.container {
+  position: fixed;
+  border-style: solid;
+  border-width: 2px;
+  border-color: sienna;
+  width: 80%;
+  height: 80%;
+  min-height:60%;
+  background-color: #ffe6e6;
+  overflow:scroll;
+  margin: 1% 15% 5% 15%;
+  border-radius: 25px;
+}
+
+
 nav a {
-  padding: 5px 30px 5px 5px;
+  padding: .5% 2.5% .5% .5%;
 }
-nav a:visited, a:link {
-  color: #334953;
-}
+
 nav a:hover {
   font-size: 100%;
-}
-nav a.active {
-
 }

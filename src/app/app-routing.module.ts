@@ -5,9 +5,11 @@ import { DashboardComponent }   from './dashboard/dashboard.component';
 import { MharashahebsComponent }      from './mharashahebs/mharashahebs.component';
 import { MharashahebDetailComponent }  from './mharashaheb-detail/mharashaheb-detail.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: CarouselComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'detail/:id', component: MharashahebDetailComponent },
   { path: 'mharashahebs', component: MharashahebsComponent },

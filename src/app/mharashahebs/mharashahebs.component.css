@@ -1,7 +1,8 @@
 /* HeroesComponent's private CSS styles */
 h2 {
   text-align: center;
-  margin-top: 10px;
+  margin: 2.5% 0.5% 2.5% 0.5%;
+  color: darkorange;
 }
 .mharashahebs {
   margin: 0 0 2em 0;
@@ -13,19 +14,16 @@ h2 {
   cursor: pointer;
   position: center;
   left: 0;
-  background-color: #EEE;
   margin: 0.5em;
-  /*padding: .3em 0;*/
   height: 1.6em;
   border-radius: 4px;
 }
 .mharashahebs li:hover {
-  color: #607D8B;
+  color: #d65828;
   background-color: #DDD;
   left: .1em;
 }
 .mharashahebs li.selected {
-  background-color: #CFD8DC;
   color: white;
 }
 .mharashahebs li.selected:hover {
@@ -36,7 +34,7 @@ h2 {
   display: inline-block;
   color: white;
   /*padding: 0.8em 0.8em 0 0.7em;*/
-  background-color:#405061;
+  background-color:#d65828;
   line-height: 1em;
   position: relative;
   left: -1px;
