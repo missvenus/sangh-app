@@ -1,18 +1,12 @@
-.container1 {
-  display: block;
-  height: 500px;
-  width: 500px;
-  padding: 2em;
-}
-
 :host {
   flex: 1;
 }
 
 .carousel {
   position: relative;
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
+  margin: 5% 10% 5% 10%;
   overflow: hidden;
   border-radius: 0.5em;
 }
@@ -41,23 +35,24 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0.5em;
-  color: white;
+  padding: 1.5em 0.2em 0.1em 0.2em;
+  color: mediumvioletred;
   font-weight: bold;
   font-size: 3em;
   user-select: none;
-  height: 100%;
+  height: 80%;
   opacity: 80%;
+  transition: opacity 150ms cubic-bezier(0.25, 0.46, 0.45, 0.84)
 }
 
-:hover, :focus {
+.control:hover, .control:focus {
             opacity: 1;
           }
 
-.next {
+.control.next {
    right: 0;
  }
-.prev {
+.control.prev {
    left: 0;
  }
 
@@ -65,15 +60,16 @@
 /* style the arrows */
 .arrow {
   display: block;
-  border-left: 0.1em solid white;
-  border-bottom: 0.1em solid white;
+  border-left: 0.1em solid mediumvioletred;
+  border-bottom: 0.1em solid darkred;
   width: 0.5em;
   height: 0.5em
 }
 
-.left {
+.arrow.left {
    transform: rotate(45deg);
  }
-.right {
+.arrow.right {
    transform: rotate(225deg);
  }
+
