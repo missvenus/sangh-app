@@ -20,9 +20,13 @@ import { trigger, transition, style, animate } from "@angular/animations";
 export class CarouselComponent implements OnInit {
   public slides = [
     {'src': "../../assets/anu-image/image1.jpg", 'alt': "jai umesh", 'text': "string" },
-    {'src': "../../assets/anu-image/image2.jpg", 'alt': "jai umesh"},
-    {'src': "../../assets/anu-image/image3.jpg", 'alt': "jai umesh"},
-    {'src': "../../assets/anu-image/image4.jpg", 'alt': "jai umesh"}
+    {'src': "../../assets/anu-image/image2.jpg", 'alt': "jai umesh", 'text': "string" },
+    {'src': "../../assets/anu-image/image3.jpg", 'alt': "jai umesh", 'text': "string" },
+    {'src': "../../assets/anu-image/image4.jpg", 'alt': "jai umesh", 'text': "string" },
+    {'src': "../../assets/anu-image/image5.jpg", 'alt': "jai umesh", 'text': "string" },
+    {'src': "../../assets/anu-image/image6.jpg", 'alt': "jai umesh"},
+    {'src': "../../assets/anu-image/image7.jpg", 'alt': "jai umesh"},
+    {'src': "../../assets/anu-image/image8.jpg", 'alt': "jai umesh"}
   ];
 
   currentSlide = 0;
