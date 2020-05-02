@@ -8,8 +8,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CarouselComponent } from './carousel/carousel.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: CarouselComponent },
+  // { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', component: CarouselComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'detail/:id', component: MharashahebDetailComponent },
   { path: 'mharashahebs', component: MharashahebsComponent },
