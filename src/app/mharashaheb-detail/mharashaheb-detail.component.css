@@ -1,5 +1,6 @@
 /* MharashahebDetailComponent's private CSS styles */
 h2 {
+  font-size: 4vmin;
   text-align: center;
 }
 
@@ -39,4 +40,5 @@ div.details  {
   border: 2px solid black;
   padding: 0.8em 0.7em 0 0.7em;
   width: 600px;
+  font-size: 2vmin;
 }
