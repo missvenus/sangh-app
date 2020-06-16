@@ -2,7 +2,7 @@
   "name": "sangh-app",
   "version": "1.0.0",
   "private": true,
-  "description": "Sthanakwasi samaj web application demo",
+  "description": "Sthanakwasi samaj web application",
   "scripts": {
     "ng": "ng",
     "build": "ng build",
